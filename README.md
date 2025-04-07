@@ -1,4 +1,6 @@
 # AngularSeminari6
+## Ejercicio
+No me funciona el frontend, he subido los cambios que hice pero no se pueden ver porque me sale una pagina blanca cuando abro el link, no entiendo porque sabiendo que no he tocado la parte gráfica del frontend.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
