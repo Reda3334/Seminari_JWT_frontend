@@ -39,7 +39,7 @@ export class LoginComponent implements OnInit {
       console.log("esto" +token);
       if (token) {
         console.log("Token rebut:", token);
-        this.authService.handleGoogleCallback(token).subscribe(() => {
+        this.authService.handleGoogleCallback(token, 'dummyRefreshToken').subscribe(() => {
           this.isLoading = false; 
           this.exportLoggedIn.emit(true); 
         });// Avisa de que l'usuari està
